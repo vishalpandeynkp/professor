@@ -1,2 +1,12 @@
-��+a�}���%�o���^�c�(2��i�j�~��n�֭y�m����+i׾�j�~��b��Z�_�}��z
-r�'��b���حꮊ��z{l�QP�b�x��֥��)��T6���)쵩e����Ɯ�����ު�zg���q�#�`#�+a�}�j)�
+FROM nikolaik/python-nodejs:python3.10-nodejs19
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends ffmpeg \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY . /app/
+WORKDIR /app/
+RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+
+CMD bash start
