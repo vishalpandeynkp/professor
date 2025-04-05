@@ -1,0 +1,66 @@
+{
+    "start_1": "👋 Hello {}! I'm **{}** - A powerful music bot for playing music in Telegram group voice chats.\n\nI can play songs, videos, and live streams in your group with some useful features!",
+    "help_1": "Here are the available commands for the bot:",
+    "ping_1": "🏓 Pong! Calculating speed...",
+    "ping_2": "🏓 Pong!\nResponse time: `{} ms`\nBot uptime: {}\nSystem uptime: {}",
+
+    "S_B_1": "➕ Add to Group",
+    "S_B_2": "👨‍💻 Support",
+    "S_B_3": "📣 Updates",
+    "S_B_4": "⚙️ Settings",
+    "S_B_5": "❓ Help",
+    "S_B_6": "📣 Updates Channel",
+    "S_B_7": "🏠 Home",
+
+    "H_B_1": "🎵 Music Commands",
+    "H_B_2": "⚙️ Admin Commands",
+    "H_B_3": "🔮 Sudo Commands",
+    "H_B_4": "👑 Owner Commands",
+    "H_B_5": "🧰 Tools",
+
+    "P_B_1": "🎵 Play Audio",
+    "P_B_2": "🎬 Play Video",
+
+    "ST_B_1": "🔈 Audio Quality",
+    "ST_B_2": "🎥 Video Quality",
+    "ST_B_3": "🧑‍🤝‍🧑 Auth Users",
+    "ST_B_4": "📋 Dashboard",
+    "ST_B_5": "🌐 Language",
+
+    "CLOSE_BUTTON": "❌ Close",
+    "BACK_BUTTON": "⬅️ Back",
+    "YES_BUTTON": "✅ Yes",
+    "NO_BUTTON": "❌ No",
+
+    "general_1": "Please use /help to see the commands.",
+    "general_2": "Search for songs or reply to a song file to play it!",
+    "general_3": "You need to be an admin to use this command.",
+    "general_4": "This command can only be used in groups.",
+    "general_5": "Bot is not connected to voice chat in this chat.",
+    "general_6": "Bot is already playing in a voice chat.",
+
+    "play_1": "🔄 Processing your request...",
+    "play_2": "**Channel Play Mode**\n🔄 Processing your request...",
+    "play_3": "❌ You did not provide any song name or link to play!",
+    "play_4": "❌ Live streams not supported!",
+    "play_5": "❌ Song duration exceeds the allowed limit of {} minutes.",
+    "play_6": "🎵 **Song Added to Queue**\n\n🏷 **Name:** {}\n⏱ **Duration:** {}\n👤 **Requested by:** {}",
+    "play_7": "🎵 **Playing Now**\n\n🏷 **Name:** {}\n⏱ **Duration:** {}\n👤 **Requested by:** {}",
+
+    "stream_1": "▶️ **Started Streaming**\n\n👤 **Requested by:** {}\n🔄 **Information: [Here]({})** ",
+    "stream_2": "▶️ **Started Streaming via URL**\n\n👤 **Requested by:** {}",
+
+    "admin_1": "❌ The music is already paused.",
+    "admin_2": "⏸ **Music Paused**\n👤 **By:** {}",
+    "admin_3": "❌ The music is not paused.",
+    "admin_4": "▶️ **Music Resumed**\n👤 **By:** {}",
+    "admin_5": "⏹ **Music Stopped**\n👤 **By:** {}",
+    "admin_6": "⏭ **Music Skipped**\n👤 **By:** {}\n\n🎵 **Now Playing:** {}",
+    "admin_7": "❌ Error skipping track:\n{}",
+    "admin_8": "❌ Can't shuffle an empty queue!",
+    "admin_9": "🔀 **Queue shuffled by** {}",
+    "admin_10": "❌ Can't loop an empty queue",
+    "admin_11": "🔁 **Now looping current track**\nby {}",
+    "admin_12": "🔁 **Now looping entire queue**\nby {}",
+    "admin_13": "🔁 **Disabled looping**\nby {}"
+}

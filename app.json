@@ -1,0 +1,69 @@
+{
+  "name": "Professor Music Bot",
+  "description": "A powerful Telegram Music Bot written in Python using Pyrogram and Py-Tgcalls.",
+  "repository": "https://github.com/yourusername/professor-music-bot",
+  "logo": "https://te.legra.ph/file/image.jpg",
+  "keywords": ["python", "telegram", "bot", "music", "pyrogram", "pytgcalls", "telegram-bot"],
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Get this value from @BotFather",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "MongoDB connection URI for storing user data",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Maximum duration limit for songs in minutes",
+      "value": "60",
+      "required": false
+    },
+    "MUSIC_BOT_NAME": {
+      "description": "A name for your Music Bot.",
+      "value": "Professor Music Bot",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram user ID as an integer.",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Pyrogram string session for the assistant account.",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs who can use admin commands (separated by space).",
+      "required": false
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "Support channel link without @",
+      "value": "https://t.me/SANATANI_TECH",
+      "required": false
+    },
+    "SUPPORT_GROUP": {
+      "description": "Support group link without @",
+      "value": "https://t.me/SANATANI_SUPPORT",
+      "required": false
+    },
+    "LOG_GROUP_ID": {
+      "description": "Telegram group ID for logs (must start with -100).",
+      "required": true
+    }
+  },
+  "buildpacks": [],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
